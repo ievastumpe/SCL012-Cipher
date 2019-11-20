@@ -37,7 +37,7 @@ Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
 
 ## UX
 - Para entender las necesidades del usuario potencial y seleccionar la tematica, realizé encuestas con mis amigos y conocidos. Salieron varios opciones (usar Cifrado Cesar para mensajes secretas entre pareja; para personas que necessita organizarse en secreto para ir a manifestaciones y otros)
-- Para el processo de testear usabilidad de la aplicacion web estoy usando aplicacion LOOM
+- Para el processo de testear usabilidad (con usuarios reales) de la aplicacion web estoy usando aplicacion LOOM
 
 ## Testing
 - El resultado del tests de verificacion:

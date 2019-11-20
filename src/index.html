@@ -1,77 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Bienvenida</title>
+    <link rel="stylesheet" href="styleIntro.css">
   </head>
+
   <body>
-
-    <!-- inicio --->
-  <div id="explicacion"></div>
-  <h1>Tu texto a (de)cifrar!</h1>
-  <br>
-    <div class="tooltip">Numero de despalazamiento
-    <span class="tooltiptext"><img src="desplazamiento.png"></span>
-  </div>
-
-<!-- shift--->
-<div class="shift">
-  <input id="shift"
-     min="1"
-     max="25"
-     value="3"
-     type="number"/>
-</div>
-
-<br>
-<!-- input area--->
-<h2>Escribes Tu mensaje o copias lo aqui: </h2>
-<div class="input">
-  <textarea id="textInput"></textarea>
-</div>
-<br>
-     
-<!-- botones Cifrar y decifrar--->
-<div class="botones">
-  <button id="myBtnCifrar">Cifrar</button>
-  <button id="myBtnDecifrar">Decifrar</button>
-</div>
-
-<br>
-
-<!-- output area--->
-<h2>Resultado aparecerá aqui:</h2>
-
-<div class="input">
-  <textarea id="output"></textarea>
-  </div>
-
-<br>
-
-<!-- botones copiar, limpiar--->
-<div class="textoCopiar">
-<p>Si deseas copiar el texto y enviar a nosotros click en COPIAR o si limpiar click LIMPIAR</p>
-</div>
-
-<div class="botones">
-  <button id="myBtnCopiar">Copy Resultado</button>
-  <button id="myBtnLimpiar">Limpiar Todo</button>
-  
-  <div id="coppiedtextarea"></div>
-  
-  <p id="listo"> </p>
-</div>
-
-<form action="final.html">
-    <input type="submit" id="adelante" value="Adelante">
-</form>
+    <div id="intro">
+      <h1>Bienvenida!</h1><br>
+      <h2>Hola! Estamos una red de apoyo para mujeres que sufren alguna forma de violencia familiar.<br><br>
+      En este sitio web se puede cifrar o decifrar tu texto deseado y enviar a nosotros para que podemos te ayudar en situacion que estás viviendo ahora. 
+      </h2><br>
+   
+      <form action="main.html"><input type="submit" id="empezar" value="Empezar"></form>
+    </div>
 
 
-<!--Link a archivos de js-->
-<script src="cipher.js"></script>
-<script src="index.js"></script>
+<!--Link a archivo de js-->
+<script type="text/javascript" src="app.js"></script>
 
 </body>
 </html>
