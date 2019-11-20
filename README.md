@@ -21,7 +21,9 @@ Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
 - el texto necessario en html,
 - agregé diseño con css,
 - codigo en js para agregar funciones a botones: cifrar, decifrar, copiar, limpiar el texto, ir al proxima pagina,
-- Testeo e Iteración.
+- Testeos e Iteración,
+- Cambios necessarios y mejoramiento. Por ejemplo, para que persona entiende que es "numero de desplazamiento", agregé funcion de "Tooltip":
+![tooltip](Tooltip.png)
 
 ## Funcionalidades en la Aplicación Web
 
