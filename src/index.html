@@ -2,14 +2,76 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+    <!-- inicio --->
+  <div id="explicacion"></div>
+  <h1>Tu texto a (de)cifrar!</h1>
+  <br>
+    <div class="tooltip">Numero de despalazamiento
+    <span class="tooltiptext"><img src="desplazamiento.png"></span>
+  </div>
+
+<!-- shift--->
+<div class="shift">
+  <input id="shift"
+     min="1"
+     max="25"
+     value="3"
+     type="number"/>
+</div>
+
+<br>
+<!-- input area--->
+<h2>Escribes Tu mensaje o copias lo aqui: </h2>
+<div class="input">
+  <textarea id="textInput"></textarea>
+</div>
+<br>
+     
+<!-- botones Cifrar y decifrar--->
+<div class="botones">
+  <button id="myBtnCifrar">Cifrar</button>
+  <button id="myBtnDecifrar">Decifrar</button>
+</div>
+
+<br>
+
+<!-- output area--->
+<h2>Resultado aparecerá aqui:</h2>
+
+<div class="input">
+  <textarea id="output"></textarea>
+  </div>
+
+<br>
+
+<!-- botones copiar, limpiar--->
+<div class="textoCopiar">
+<p>Si deseas copiar el texto y enviar a nosotros click en COPIAR o si limpiar click LIMPIAR</p>
+</div>
+
+<div class="botones">
+  <button id="myBtnCopiar">Copy Resultado</button>
+  <button id="myBtnLimpiar">Limpiar Todo</button>
+  
+  <div id="coppiedtextarea"></div>
+  
+  <p id="listo"> </p>
+</div>
+
+<form action="final.html">
+    <input type="submit" id="adelante" value="Adelante">
+</form>
+
+
+<!--Link a archivos de js-->
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+
+</body>
 </html>
