@@ -14,6 +14,8 @@ Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
 ## Los pasos qué tengo hecho:
 - Ideación,
 - Prototipado (sketching): los dibujos (sketches) en papel para visualizar la idea,
+![sketch](sketch.jpg)
+
 - mockups en Figma con interacciones de una pagina a otra (tiene 3: intro, main, y final),
 
 ![figma](DisenoenFigma.png)
