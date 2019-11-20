@@ -15,6 +15,9 @@ Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
 - Ideación,
 - Prototipado (sketching): los dibujos (sketches) en papel para visualizar la idea,
 - mockups en Figma con interacciones de una pagina a otra (tiene 3: intro, main, y final),
+
+![figma](DisenoenFigma.png)
+
 - el texto necessario en html,
 - agregé diseño con css,
 - codigo en js para agregar funciones a botones: cifrar, decifrar, copiar, limpiar el texto, ir al proxima pagina,
@@ -33,3 +36,4 @@ Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
 
 ## Testing
 - El resultado del tests de verificacion:
+
