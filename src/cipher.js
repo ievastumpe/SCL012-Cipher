@@ -31,8 +31,10 @@ window.cipher = {
       if(palabra >=65 && palabra <= 90 ){ //solo mayusculas
         resultadoNumeroDecifrado = (palabra - 90 - parseInt(infonumero))% 26 + 90; //transformacion a Ascii en numero
         resultadoLetras = resultadoLetras + String.fromCharCode(resultadoNumeroDecifrado); //transformacion a letras
-    }
-      
+      }
+      if (palabra ===32){
+        resultadoLetras += " "
+      }
     }
   
   return resultadoLetras;
