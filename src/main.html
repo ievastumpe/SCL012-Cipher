@@ -11,28 +11,30 @@
     <!-- inicio --->
   <div id="explicacion"></div>
   <h1>Tu texto a (de)cifrar!</h1>
-  <br>
-    <div class="tooltip">Numero de despalazamiento
-    <span class="tooltiptext"><img src="desplazamiento.png"></span>
-  </div>
-
-<!-- shift--->
-<div class="shift">
-  <input id="shift"
-     min="1"
-     max="25"
-     value="3"
-     type="number"/>
-</div>
-
+  
 <br>
 <!-- input area--->
-<h2>Escribes Tu mensaje o copias lo aqui: </h2>
+<h2>Escribes Tu mensaje o copias lo que recibiste de nuestra organisación aqui: </h2>
 <div class="input">
   <textarea id="textInput"></textarea>
 </div>
 <br>
-     
+
+<div class="tooltip">Eliges un numero para transformar tu texto (Saber más)
+  <span class="tooltiptext"><img src="numerodesplazamiento.png"></span>
+  </div>
+
+<!-- shift--->
+  <div class="shift">
+  <input id="shift"
+   min="1"
+   max="25"
+   value="3"
+   type="number"/>
+  </div>
+  
+<br>
+
 <!-- botones Cifrar y decifrar--->
 <div class="botones">
   <button id="myBtnCifrar">Cifrar</button>

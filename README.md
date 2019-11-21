@@ -1,12 +1,12 @@
 # Cifrado César Contra la Violencia Intrafamiliar
 
-En Chile y en todo el mundo ocurre violencia contra las mujeres, y con mayor frecuencia se realiza en sus propias familias, en su propio hogar.
+En Chile y en todo el mundo ocurre violencia contra las mujeres, y con mayor frecuencia se realiza en sus propias familias, y en su propio hogar.
 
-Muchas veces las mujeres no solo viven situaciones difíciles de la vida, sino que también tienen una privacidad limitada y necesitan una forma oculta de informar a los demás sobre lo que está sucediendo sin que agresor lo sepa.
+Muchas veces las mujeres no solo viven situaciones difíciles de la vida, sino que también tienen una privacidad limitada y necesitan una forma oculta de informar a los demás sobre lo que está sucediendo sin que el agresor lo sepa.
 
 Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
-- ayudar a las mujeres a preparar mensajes privados y sectretos para que despues se puede enviar a las instituciones necesarias;
-- decodificar mensajes secretos recibidos de instituciones de ayuda a mujeres en casos de violencia intrafamiliar
+- ayudar a las mujeres a preparar mensajes privados y sectretos para que se puedan enviar a las instituciones necesarias;
+- decodificar mensajes secretos recibidos de instituciones de ayuda a las mujeres en casos de violencia intrafamiliar
 
 ## Los principales usuarios de producto
 - mujeres (cualquier edad) que tiene la familia y sufren o es testigo de situación violencia intrafamiliar (puede ser psicologica o fisica)
@@ -36,8 +36,8 @@ Por lo tanto, "Cifrado César Contra la Violencia Familiar" se hace para:
 - limpiar todo texto (escrito, cifrado/decifrado)
 
 ## UX
-- Para entender las necesidades del usuario potencial y seleccionar la tematica, realizé encuestas con mis amigos y conocidos. Salieron varios opciones (usar Cifrado Cesar para mensajes secretas entre pareja; para personas que necessita organizarse en secreto para ir a manifestaciones y otros)
-- Para el processo de testear usabilidad (con usuarios reales) de la aplicacion web estoy usando aplicacion LOOM
+- Para entender las necesidades del usuario potencial y seleccionar la tematica, realicé encuestas con mis amigos y conocidos. Salieron varios opciones (usar Cifrado Cesar para mensajes secretas entre pareja; para personas que necesitan organizarse en secreto para ir a manifestaciones y otros)
+- Para las pruebas con usuarios reales estoy usando aplicacion LOOM
 
 ## Testing
 - El resultado del tests de verificacion:

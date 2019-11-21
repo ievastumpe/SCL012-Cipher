@@ -67,7 +67,7 @@ body {
   #textInput{
     margin: auto;
     width: 50%;
-    height: 150px;
+    height: 130px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -78,7 +78,7 @@ body {
   #output{
     margin: auto;
     width: 50%;
-    height: 150px;
+    height: 130px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -144,4 +144,8 @@ body {
     font-family: reboto;
     text-align: center;
     font-style: inherit;
+  }
+
+  #test{
+    display: inline block;
   }
